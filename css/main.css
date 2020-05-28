@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #f16059;
   height: 100%;
 }
 
@@ -109,11 +109,58 @@ body {
   background-color: #f16059;
 }
 
+header,
+footer {
+  background-color: #f16059;
+  height: 400px;
+  width: 100%;
+  margin-top: 100px;
+  color: white;
+  font-size: 140px;
+  font-family: 'Italiana', serif;
+
+}
+
+footer {
+  height: 100px;
+}
+
+main {
+  background-color:  #f16059;
+  height: 250px;
+  width: 100%;
+  color: white;
+  font-size: 140px;
+  font-family: 'Italiana', serif;
+}
+
+header,
+footer,
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #f16059;
+}
+
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  background-color: #f16059;
+  width: 100%;
+  font-family: 'Italiana', serif;
 }
 
 .div-1, .div-2, .div-3 {
@@ -122,7 +169,7 @@ body {
   line-height: 1.5em;
   font-size: 2.0em;
   background-color: mediumspringgreen;
-  height: 700px;
+  height: 300px;
   width: 30%;
   display: flex;
   justify-content: center;
@@ -132,6 +179,7 @@ body {
 
 .div-1 {
       border-right: 10px solid cyan;
+      border-left: 10px solid cyan;
       border-radius: 40px;
       padding: 10px;
       margin: 0px;
@@ -142,15 +190,17 @@ body {
       border-left: 10px solid cyan;
       border-radius: 40px;
       padding: 10px;
-      margin: 1px;
+      margin: 0px;
 }
 
 .div-3 {
       border-left: 10px solid cyan;
+      border-right: 10px solid cyan;
       border-radius: 40px;
       padding: 10px;
-      margin: 1px;
+      margin: 0px;
 }
+
 
 
 /* ==========================================================================
