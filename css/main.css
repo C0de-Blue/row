@@ -125,12 +125,20 @@ footer {
   height: 100px;
 }
 
+#pic {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 4em;
+  width: initial;
+}
+
 main {
   background-color:  #f16059;
   height: 250px;
   width: 100%;
   color: white;
-  font-size: 140px;
+  font-size: 7em;
   font-family: 'Italiana', serif;
 }
 
